@@ -37,12 +37,7 @@ form.addEventListener('submit',(event: Event)=>{
          <h3>Experience</h3>
          <p>${experience}</p>
 
-        document.getElementById('addText').addEventListener('click', () => {
-        const educationTextarea = document.getElementById('education');
-        educationTextarea.value = "Line 1\nLine 2\nLine 3\nLine 4"
-                     `;
-
-
+    `;
 
     // Display the resume in the display area
 
